@@ -15,7 +15,7 @@ func main() {
 
     s := "18"
     if len(args) > 0 {
-        s = args[1]
+        s = args[0]
     }
     n, _ := strconv.ParseUint(s, 10, 8)
 
